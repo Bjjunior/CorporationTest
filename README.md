@@ -28,9 +28,9 @@ Configure seu banco de dados de acordo com as propriedades definidas no arquivo 
 API REST com Spring Boot:
 
 Utilize os endpoints da API REST para interagir com o sistema:
-GET /transacoes: Recupera a lista de todas as transações.
-POST /transacoes: Cria uma nova transação.
-GET /transacoes/{id}: Recupera os detalhes de uma transação específica.
+GET /cliente, /empresa: Recupera a lista de todas as entidade.
+POST /cliente, /empresa: Cria uma nova entidade.
+GET //cliente{id}, /empresa{id}: Recupera os detalhes de uma entidade específica.
 Callbacks e Webhooks:
 
 Configure as URLs dos webhooks para receber callbacks após transações bem-sucedidas.
